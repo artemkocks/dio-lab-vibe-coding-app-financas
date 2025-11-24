@@ -1,89 +1,126 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 Clear Mind Money - FinanceFlow 
+App de Organização de Finanças Pessoais
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+Este projeto foi desenvolvido com um desafio de um projeto no DIO **Vibe Coding** usando IA (Copilot + Lovable).  
+O objetivo é criar um **App de Finanças Pessoais acessível e moderno**, especialmente pensado para usuários com **TDAH/TEA**.  
+A proposta é unir **simplicidade** e **estética tecnológica minimalista**, permitindo que qualquer pessoa organize suas finanças por meio de uma **conversa natural com IA**.
+
+---
 
 ## ✨ O que é Vibe Coding
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**.  
+Você não precisa escrever código linha por linha: basta **guiar a IA** descrevendo suas ideias com clareza e intenção.  
+Assim, a IA transforma sua vibe em soluções funcionais.
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+---
 
-## 🎯 Desafio
+## 📝 PRD Clear Mind Money - FinanceFlow
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
-
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
-
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
-
-## 🪄 Etapas do Desafio
-
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
-
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
-
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
 
 ```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+### 1. Objetivo do Produto
+Criar uma plataforma de **organização de finanças pessoais** com chat inteligente, definição de metas, relatórios e acompanhamento.  
+O produto será **extremamente acessível, previsível e moderno**, especialmente adequado para usuários com **TDAH** e **TEA**, garantindo clareza, baixa sobrecarga sensorial e estética tech minimalista.
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+### 2. Público-Alvo
+- Pessoas que buscam organização financeira simples e prática.  
+- Usuários com TDAH/TEA que precisam de clareza, previsibilidade e baixa sobrecarga sensorial.  
+- Pessoas que valorizam estética tecnológica minimalista e UX de alta qualidade.  
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+### 3. Funcionalidades Principais
+- **Chat inteligente** para registrar gastos em linguagem natural.  
+- **Metas financeiras** com subtarefas e progresso visual.  
+- **Relatórios claros** com gráficos simples e exportação em PDF/imagem.  
+- **Configurações acessíveis**: modo claro/escuro, híbrido tech, ajuste de fonte e contraste.  
+- **Login seguro** via Google, Microsoft, Apple ou conta própria.  
+- **Educação Financeira**: acesso direto ao portal oficial da Caixa Econômica Federal  
+  👉 [Educação Financeira - CAIXA]
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+### 4. Fluxo Principal
+Login → Chat → Metas → Relatórios → Configurações → Educação Financeira.
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
+### 5. Diretrizes de Design
+- **Cores**: paleta restrita (2 principais + 1 destaque), modos claro/escuro e híbrido tech.  
+- **Botões**: grandes, espaçados, com ícones universais e feedback imediato.  
+- **Layout**: previsível, espaço em branco, hierarquia visual clara, responsividade total.  
+- **Acessibilidade Cognitiva**: texto curto, ícone + texto, modo foco, personalização de fonte e contraste.  
+- **Estética Tech**: visual futurista minimalista, neon discreto, tipografia moderna sans-serif, microanimações sutis.  
+
+### 6. Métricas de Sucesso
+- Taxa de conclusão de metas.  
+- Retenção semanal.  
+- Redução de erros de navegação.  
+- Engajamento no Modo Foco.  
+- Satisfação específica de usuários com TDAH/TEA.  
+- Tempo médio de uso por sessão.  
+- Feedback de acessibilidade.  
+
+### 7. Restrições
+- Nada de sobrecarga sensorial.  
+- Não usar efeitos intensos, animações rápidas ou interfaces densas.  
+- Manter previsibilidade em todos os fluxos.
+
 ```
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+---
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+## 📊 Etapas do Desenvolvimento
 
-### 2. Explorando o Lovable na Prática
+1. Criar, Revisar e lapidar o PRD final com Copilot.  
+2. Rodar o prompt no Lovable.  
+3. Gerar fluxo de telas e plano de MVP.  
+4. Validar com foco em acessibilidade e clareza.  
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+---
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+## 📊 resultado final no Lovable   https://clear-mind-money.lovable.app/  
+  
 
-### 3. Entregando o Desafio na DIO
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+1. <img width="730" height="845" alt="Captura de tela 2025-11-24 155031" src="https://github.com/user-attachments/assets/33a55ec5-9dc0-4d3e-aad4-f64836328ed6" />
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+2. <img width="1089" height="856" alt="Captura de tela 2025-11-24 155635" src="https://github.com/user-attachments/assets/d9e02203-1938-4356-8ada-9f1793d3669e" />
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
 
-## 💬 Conclusão
+3. <img width="743" height="780" alt="Captura de tela 2025-11-24 161016" src="https://github.com/user-attachments/assets/76d6dac8-e701-458d-a74c-f6835833aded" />
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+4. <img width="513" height="700" alt="Captura de tela 2025-11-24 161044" src="https://github.com/user-attachments/assets/de88ce49-d8ba-4265-9173-6712151eb07f" />
+
+5. <img width="784" height="671" alt="Captura de tela 2025-11-24 161104" src="https://github.com/user-attachments/assets/34ca631a-2076-4fdf-a011-303ca15fe5f5" />
+
+6. <img width="1433" height="838" alt="Captura de tela 2025-11-24 161219" src="https://github.com/user-attachments/assets/397acaae-8d1a-490b-9a1e-1018981e2ac9" />
+
+7. <img width="1869" height="849" alt="Captura de tela 2025-11-24 161540" src="https://github.com/user-attachments/assets/3f05dc3f-9811-443f-ba5f-3ca0d9cc8552" />
+
+ 
+
+## 💬 Reflexão
+
+- **O que funcionou bem? **: clareza do prompt final e foco em acessibilidade. A diferença entre o prompt inicial e final foi realmente absurda. O Copilot conseguiu entender e ajudar na criação.  
+- **O que não funcionou como o esperado? **: O lovabel fez apenas 3 interações e isso fez acabar os creditos gratuitos.  
+- **O que aprendi sobre conversar com IAs? **: conversar com IA é como dar um briefing — quanto mais claro, melhor o resultado. A clareza, precisão nos detalhes e projeto antecipado faz toda a difrença na criação de prompts. É realmente conduzir um processo criativo estruturado, onde cada palavra é uma peça estratégica. É transformar intenção em instrução, ideia em direção, e visão em resultado. Não é “apenas falar”, é realmente arquitetar o pensamento em forma de prompt, guiando a IA como se fosse uma equipe criativa que precisa de briefing claro para entregar o melhor trabalho.    
+
+---
+
+## 🚀 Conclusão
+
+O **Clear Mind Money - FinanceFlow** mostra como a IA pode transformar ideias em conceitos reais sem escrever código.  
+É um app que une **simplicidade, acessibilidade e estética futurista** para ajudar pessoas a organizarem suas finanças.
+
+**Vibe Coding** não é apenas sobre pedir algo para a IA, é sobre **clareza, curiosidade e criatividade**.  
+O verdadeiro objetivo aqui é aprender a passar a sua vibe para a IA, **pensar junto com a IA**, transformando intenções em instruções e instruções em soluções.  
+Cada interação é um experimento: quanto mais clara for sua intenção, mais surpreendente será o resultado.  
+
+Conversar com IA é como dar um briefing — quanto mais claro, melhor o resultado.  
+A clareza, a precisão nos detalhes e o projeto antecipado fazem toda a diferença na criação de prompts.  
+Não é "apenas falar", é realmente **arquitetar o pensamento**, traduzir a visão em palavras e guiar a tecnologia como uma parceira criativa.  
+Esse processo mostra que **programar com IA é menos sobre código e mais sobre comunicação inteligente**.  
+
+Com isso, nosso trabalho prova que **a tecnologia pode ser inclusiva, acessível e futurista**, e que o **Vibe Coding** é uma nova forma de criar: leve, humana e poderosa.
+
+
+
+
+ 
